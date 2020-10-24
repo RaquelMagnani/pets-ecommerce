@@ -1,6 +1,10 @@
 * {
   font-family: 'Heebo', sans-serif;
 }
+.letter-size {
+  font-size: 17px;
+  line-height: 22px;
+}
 .icon-text {
   font-weight: 400;
   font-size: 17px;
@@ -35,6 +39,53 @@
 .user {
   background-image: url('assets/Icons/user.png');
 }
-.bag{
-    background-image: url("assets/Icons/Bag.png") ;
+.bag {
+  background-image: url('assets/Icons/Bag.png');
+}
+.list-inline {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+}
+.search {
+  background-image: url('assets/Icons/search.png');
+}
+.bg-discount {
+  background-color: black;
+  color: gray;
+}
+.discount-highlight {
+  color: white;
+}
+.banner {
+  background-image: url('assets/images/banner.png');
+  color: white;
+  height: 664px;
+}
+h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 58px;
+
+}
+.button-font {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+.button-dog {
+  width: 231px;
+  height: 55px;
+  margin-right: 30px;
+}
+.button-cat {
+  width: 177px;
+  height: 55px;
+  background-color: transparent;
+  color: white;
+}
+.section-1{
+    
 }
