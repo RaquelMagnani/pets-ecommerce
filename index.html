@@ -9,29 +9,75 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link href="styles.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
-    <head>
-        <div>
-            <img src="assets/Icons/Plane.png" />
-            <p>Frete grátis a partir de R$ 169,90</p>
-            <img src="assets/Icons/Gift.png" />
-            <p>Ganhe uma bandana a partir de R$ 259,00</p>
+    <header class="container">
+      <div class="row pt-3 pb-3">
+        <div class="col-md-4">
+          <p class="icon-text phone">Frete grátis a partir de R$ 169,90</p>
         </div>
-        <div>
-            <div>
-                <img src="assets/Icons/pin.png"/>
-                <p>Nossas lojas</p>
-                <img src="assets/Icons/phone.png"/>
-                <p>Atendimento ao cliente</p>
-            </div>
-            <div>
-                
-            </div>
+        <div class="col-md-4 ml-auto">
+          <p class="icon-text gift">Ganhe uma bandana a partir de R$ 259,00</p>
         </div>
-    </head>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="icon-text pin">Nossas lojas</p>
+        </div>
+        <div class="col-md-3">
+          <p class="icon-text phone">Atendimento ao cliente</p>
+        </div>
+        <div class="col-md-4">
+          <p class="icon-text percent">
+            Ganhe <strong class="percent-highlight">10% off</strong> na primeira
+            compra
+          </p>
+        </div>
+        <div class="col-md-1">
+          <a class="icon-text user text-replacement" href="#">Conta</a>
+        </div>
+        <div class="col-md-1">
+          <a class="icon-text text-replacement bag" href="#">Carrinho</a>
+        </div>
+      </div>
+      <div class="row bg-light">
+        <div class="col-md-4">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/Icons/Logoipsum (1).png"
+              width="144"
+              height="40"
+              class="d-inline-block align-top"
+              alt=""
+              loading="lazy"
+            />
+            <img
+              src="assets/Icons/Scooby.png"
+              width="147"
+              height="37"
+              class="d-inline-block align-top"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">Cachorros</li>
+            <li class="list-inline-item">Gatos</li>
+            <li class="list-inline-item">Coleções</li>
+            <li class="list-inline-item">Outlet</li>
+            <li class="list-inline-item">Lookbook</li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

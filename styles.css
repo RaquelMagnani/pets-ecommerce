@@ -1,1 +1,40 @@
-
+* {
+  font-family: 'Heebo', sans-serif;
+}
+.icon-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 25px;
+  background-size: 21px 24px;
+}
+.phone {
+  background-image: url('assets/Icons/Plane.png');
+}
+.gift {
+  background-image: url('assets/Icons/Gift.png');
+}
+.pin {
+  background-image: url('assets/Icons/pin.png');
+}
+.phone {
+  background-image: url('assets/Icons/phone.png');
+}
+.percent {
+  background-image: url('assets/Icons/percentage.png');
+}
+.percent-highlight {
+  font-weight: 500;
+  color: #ff5100;
+}
+.text-replacement {
+  color: transparent;
+}
+.user {
+  background-image: url('assets/Icons/user.png');
+}
+.bag{
+    background-image: url("assets/Icons/Bag.png") ;
+}
