@@ -172,3 +172,42 @@ line-height: 28px;
   color: white;
   height: 664px
 }
+.dog-banner{
+  background-image: url('assets/images/cachorro.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+ height: 450px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 100px;
+}
+.dog-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+  line-height: 32px;
+}
+.dog-content-button{
+  font-size: 16px;
+  line-height: 17px;
+ padding:19px 30px ;
+  border:transparent;
+  background-color: white;
+}
+
+.cat-banner{
+  background-image: url('assets/images/gato.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+ height: 450px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 100px;
+}
