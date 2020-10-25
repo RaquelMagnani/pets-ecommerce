@@ -214,7 +214,7 @@ h1 {
   align-items: flex-start;
   padding-left: 100px;
 }
-.instagram{
+.instagram {
   background-image: url('assets/Icons/Instagram.png');
   background-repeat: no-repeat;
   background-position: right;
@@ -222,4 +222,43 @@ h1 {
   height: 40px;
   font-size: 28px;
   line-height: 32px;
+}
+
+.logo {
+  background-image: url('assets/images/logo.png');
+  background-repeat: no-repeat;
+  height: 540px;
+  background-color: #ea4e2a;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+}
+.resale-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-resale {
+  background-color: #ffff;
+  color: #242529;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  padding: 19px 30px;
+  border-radius: 3px;
+  border: transparent;
+}
+.btn-franchise{
+  background-color: #ffff;
+  color: #FF5100;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  padding: 19px 30px;
+  border-radius: 3px;
+  border: transparent;
+}
+.store{
+  background-image: url('assets/images/Mask Group .png');
 }
