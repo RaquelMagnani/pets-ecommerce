@@ -18,15 +18,15 @@
   </head>
   <body>
     <header class="container">
-      <div class="row pt-3 pb-3">
-        <div class="col-md-4">
+      <div class="row pt-2 pb-4 menu-line1">
+        <div class="col-md-4 ">
           <p class="icon-text phone">Frete grátis a partir de R$ 169,90</p>
         </div>
         <div class="col-md-4 ml-auto">
           <p class="icon-text gift">Ganhe uma bandana a partir de R$ 259,00</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-3 menu-line2">
         <div class="col-md-2">
           <p class="icon-text pin">Nossas lojas</p>
         </div>
@@ -46,7 +46,7 @@
           <a class="icon-text text-replacement bag" href="#">Carrinho</a>
         </div>
       </div>
-      <div class="row bg-light pt-4 pb-4">
+      <div class="row pt-4 pb-4">
         <div class="col-md-4">
           <a class="navbar-brand" href="#">
             <img
@@ -145,71 +145,67 @@
           </div>
         </div>
       </div>
-      <div class="row mb-4 sections-width">
-        <div class="col-3">
-          <div class="card ml-4">
-            <div class="card-header bg-card cat"></div>
-            <div class="card-body text-success bg-card">
-              <img src="assets/images/bandana-carousel.png" />
-            </div>
+      <div class="card-deck sections-width">
+        <!-- card 1 -->
+        <div class="card">
+          <div class="card-header cat"></div>
+          <img class="card-img-top" src="assets/images/bandana-carousel.png" />
+          <div class="card-body bg-transparent">
             <p class="card-text product-name">
               Bandana para cachorros e gatos Energy
             </p>
-            <div class="card-footer bg-transparent">
-              <p class="product-price"><strong>R$ 33,90</strong></p>
-              <p class="letter-size">até 2x de 16,58 sem juros</p>
-            </div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <p class="product-price"><strong>R$ 33,90</strong></p>
+            <p class="letter-size">até 2x de 16,58 sem juros</p>
           </div>
         </div>
-
-        <div class="col-3">
-          <div class="card ml-4">
-            <div class="card-header bg-card dog">
-              <p class="discount-tag">-15%</p>
-            </div>
-            <div class="card-body text-success bg-card">
-              <img src="assets/images/coleira sd carousel.png" />
-            </div>
-            <p class="card-text product-name">Coleira coleção Scooby-Doo</p>
-            <div class="card-footer bg-transparent">
-              <p><s>R$149,90</s></p>
-              <p class="product-price"><strong>R$ 120,00</strong></p>
-            </div>
+        <!-- card 2 -->
+        <div class="card">
+          <div class="card-header bg-card dog">
+            <p class="discount-tag">-15%</p>
+          </div>
+          <div class="card-body text-success bg-card">
+            <img src="assets/images/coleira sd carousel.png" />
+          </div>
+          <p class="card-text product-name">Coleira coleção Scooby-Doo</p>
+          <div class="card-footer bg-transparent">
+            <p><s>R$149,90</s></p>
+            <p class="product-price"><strong>R$ 120,00</strong></p>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card ml-4">
-            <div class="card-header bg-card dog"></div>
-            <div class="card-body text-success bg-card">
-              <img src="assets/images/kit-carousel.png" />
-            </div>
-            <p class="card-text product-name">
-              Kit Flamengo para cachorro e gato
-            </p>
-            <div class="card-footer bg-transparent">
-              <p class="product-price"><strong>R$ 145,90</strong></p>
-              <p>até 2x de R$ 73,00 sem juros</p>
-            </div>
+        <!-- card 3 -->
+        <div class="card">
+          <div class="card-header bg-card dog"></div>
+          <div class="card-body text-success bg-card">
+            <img src="assets/images/kit-carousel.png" />
+          </div>
+          <p class="card-text product-name">
+            Kit Flamengo para cachorro e gato
+          </p>
+          <div class="card-footer bg-transparent">
+            <p class="product-price"><strong>R$ 145,90</strong></p>
+            <p>até 2x de R$ 73,00 sem juros</p>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card ml-4">
-            <div class="card-header bg-card cat">
-              <p class="discount-tag">-15%</p>
-            </div>
-            <div class="card-body text-success bg-card">
-              <img src="assets/images/laço-carousel.png" />
-            </div>
-            <p class="card-text product-name">
-              Gravata para cachorros estampa floral
-            </p>
-            <div class="card-footer bg-transparent">
-              <p><s>R$29,90</s></p>
-              <p class="product-price"><strong>R$ 33,90</strong></p>
-            </div>
+        <!-- card 4 -->
+        <div class="card">
+          <div class="card-header bg-card cat">
+            <p class="discount-tag">-15%</p>
+          </div>
+          <div class="card-body text-success bg-card">
+            <img src="assets/images/laço-carousel.png" />
+          </div>
+          <p class="card-text product-name">
+            Gravata para cachorros estampa floral
+          </p>
+          <div class="card-footer bg-transparent">
+            <p><s>R$29,90</s></p>
+            <p class="product-price"><strong>R$ 33,90</strong></p>
           </div>
         </div>
       </div>
+
       <div class="row d-flex align-items-center sections-width">
         <div class="col-6">
           <div class="sd-banner d-flex">
@@ -281,9 +277,11 @@
         <div class="col-3">
           <div class="card">
             <div class="card-header bg-card dog"></div>
-            <div class="card-body text-success bg-card">
-              <img src="assets/images/coleiraarlequina.png" />
-            </div>
+            <img
+              class="card-img-top"
+              src="assets/images/coleiraarlequina.png"
+            />
+            <div class="card-body text-success bg-card"></div>
             <p class="card-text product-name">Coleira Harley Quinn</p>
             <div class="card-footer bg-transparent">
               <p class="product-price"><strong>R$ 33,90</strong></p>
@@ -319,28 +317,28 @@
             <img
               src="assets/images/photo-insta 2.png"
               class="card-img-top"
-              alt="..."
+              alt="foto de um cachorro de bandana"
             />
           </div>
           <div class="card col-3">
             <img
               src="assets/images/photo-insta 3.png"
               class="card-img-top"
-              alt="..."
+              alt="foto de um homem com um cachorro"
             />
           </div>
           <div class="card col-3">
             <img
               src="assets/images/photo-insta 4.png"
               class="card-img-top"
-              alt="..."
+              alt="foto de um cachorro de peitoral"
             />
           </div>
           <div class="card col-3">
             <img
               src="assets/images/photo-insta 5.png"
               class="card-img-top"
-              alt="..."
+              alt="foto de um cachorro de roupa"
             />
           </div>
         </div>
@@ -361,26 +359,72 @@
         </div>
         <div class="col-5 store"></div>
       </div>
-      <div class=" contact container sections-width">
+      <div class="contact container sections-width">
         <h4>Receba as novidades Logoipsum</h4>
         <p>Seu pet agradece e você fica por dentro de tudo que acontece aqui</p>
         <form>
           <div class="form-row contact-infos">
-            <div class="form-group  mr-3">
-              <label >NOME COMPLETO</label>
-              <input type="name" class="form-control" placeholder="Digite seu nome completo" >
+            <div class="form-group mr-3">
+              <label>NOME COMPLETO</label>
+              <input
+                type="name"
+                class="form-control"
+                placeholder="Digite seu nome completo"
+              />
             </div>
             <div class="form-group mr-3">
               <label for="inputPassword4">E-MAIL</label>
-              <input type="email" class="form-control"placeholder="ex.: seunome@email.com.br " >
+              <input
+                type="email"
+                class="form-control"
+                placeholder="ex.: seunome@email.com.br "
+              />
             </div>
-            <button  type="submit" class=" btn-contact">CONTINUAR</button>
+            <button type="submit" class="btn-contact">CONTINUAR</button>
           </div>
-          
         </form>
       </div>
     </main>
+<footer class="container">
+<div class="footer-info row sections-width my-4">
 
+  <ul class="list-unstyled col-2">
+    <li> <strong class="list-tittle">Sobre</strong></li>
+    <li class="list-item">A Logoipsum</li>
+    <li class="list-item">Lookbooks</li>
+    <li class="list-item">Embaixadores</li>
+    <li class="list-item">Onde encontrar</li>
+    <li class="list-item">Quero ser revendedor</li>
+    <li class="list-item">Blog</li>
+    
+  </ul>
+  <ul class="list-unstyled col-2">
+    <li> <strong class="list-tittle">Ajuda</strong></li>
+    <li class="list-item">Fale conosco</li>
+    <li class="list-item">Trocas e devoluções</li>
+    <li class="list-item">Política de frete e entrega</li>
+    <li class="list-item">Política de privacidade</li>
+    <li class="list-item">Política de segurança</li>
+    <li class="list-item">Programa de indicação</li>
+    
+  </ul>
+  
+  <img class="col-3"src="assets/Icons/Pagamento.png"/>
+</div>
+<div class="logo-black mt-5 ">
+  <div class="footer-text">
+
+    <p>Moda e acessórios pet com qualidade premium e o estilo mais autêntico possível. Se é isso que você procura para o 
+      seu pet, segurança e conforto vão de bônus em cada pedido.</p>
+      <p>Para deixar qualquer pet babando - e por que não donos? - nossos produtos têm estampas oficiais dos personagens 
+        da DC Comics e Warner Bros, tudo para arrasar em qualquer passeio. Aliás, é tanto estilo que o passeio vai virar desfile.</p>
+        <p><u>relacionamento@logoipsum.com.br</u> • Av. Paranavaí, 26 - Maringá - PR; CEP: 87070130</p>
+      </div>
+</div>
+<div class="copyright">
+  <p>Copyright <strong>Logoipsum</strong> Pet - 271485610 - 2020. Todos os direitos reservados.</p>
+</div>
+</footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
