@@ -8,13 +8,12 @@
   font-size: 17px;
   line-height: 22px;
 }
-.menu-line1{
-  background-color:#f8f8f8 ;
+.menu-line1 {
+  background-color: #f8f8f8;
   height: 40px;
-  
 }
-.menu-line2{
-  border-bottom:1px solid #f8f8f8 ;
+.menu-line2 {
+  border-bottom: 1px solid #f8f8f8;
 }
 
 .icon-text {
@@ -148,16 +147,35 @@ h1 {
   line-height: 17px;
 }
 
-.cat {
-  background-image: url('assets/Icons/Pets Left.png');
-  background-repeat: no-repeat;
-  background-position: left;
+/* CARDS */
+.product {
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  height: 400px;
+  position: relative;
 }
-.dog {
-  background-image: url('assets/Icons/Dog.png');
-  background-repeat: no-repeat;
-  background-position: left;
+.icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 50px;
+  background-color: white;
 }
+
+.product-image {
+  background-color: #f2f2f2;
+  height: 200px;
+  width: inherith;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+}
+
 .bg-card {
   background-color: #f8f8f8;
   display: flex;
@@ -311,33 +329,31 @@ h1 {
   height: 55px;
 }
 
-.list-tittle{
+.list-tittle {
   font-weight: 500;
-  font-size:23px;
+  font-size: 23px;
   line-height: 28px;
 }
-.list-item{
+.list-item {
   padding-top: 30px;
   font-weight: 400;
   font-size: 17px;
   line-height: 22px;
 }
-.logo-black{
+.logo-black {
   background-image: url('assets/Icons/Logoipsum (1).png');
   background-repeat: no-repeat;
   background-position: left;
   background-color: #f8f8f8;
   padding: 50px 50px;
-  
 }
-.footer-text{
-
+.footer-text {
   margin-left: 200px;
 }
-.copyright{
+.copyright {
   font-size: 19px;
   line-height: 23px;
-  color:#ffff;
+  color: #ffff;
   background-color: #000000;
   text-align: center;
   padding: 23px 0 23px 0;
