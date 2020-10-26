@@ -328,7 +328,12 @@ h1 {
 .form-control {
   height: 55px;
 }
-
+.footer-locker{
+  background-image: url('assets/images/remove-removebg.png');
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  padding-left: 200px;
+}
 .list-tittle {
   font-weight: 500;
   font-size: 23px;
